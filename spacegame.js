@@ -196,11 +196,11 @@ function draw() {
 		if (rad < planetArray[1].h+rocket[0].h) {
 			if (vel < 1.7) {
 				fr = 0;
-				document.getElementById("defaultCanvas0").style.backgroundImage = 'url("images/win.png")';
+				document.getElementById("defaultCanvas0").style.backgroundImage = 'url("Spacegame/images/win.png")';
 				state = 1;
 			} else if (vel >= 1.7) {
 			fr = 0;
-			document.getElementById("defaultCanvas0").style.backgroundImage = 'url("images/loss.png")';
+			document.getElementById("defaultCanvas0").style.backgroundImage = 'url("Spacegame/images/loss.png")';
 			state = 1;
 			}
 		}
